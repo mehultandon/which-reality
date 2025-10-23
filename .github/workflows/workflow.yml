@@ -4,9 +4,9 @@ name: SEC488 DAST
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ i01 ]
   pull_request:
-    branches: [ master ]
+    branches: [ i01 ]
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
